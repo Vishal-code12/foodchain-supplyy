@@ -1,0 +1,407 @@
+[
+    {
+        "index": 0,
+        "timestamp": "2025-11-01T18:11:59.794660",
+        "action": "GENESIS",
+        "data": {
+            "message": "Genesis Block"
+        },
+        "previous_hash": "0",
+        "hash": "b5dac54b873f174f40454d138e0dbc1ed105c7c6b1acc1dcb1243787c5b43417"
+    },
+    {
+        "index": 1,
+        "timestamp": "2025-11-01T20:01:32.566922",
+        "action": "FARMER_LIST",
+        "data": {
+            "role": "farmer",
+            "action": "list",
+            "crop_id": 5,
+            "name": "orange",
+            "quantity": "1"
+        },
+        "previous_hash": "b5dac54b873f174f40454d138e0dbc1ed105c7c6b1acc1dcb1243787c5b43417",
+        "hash": "cc0b7f739be2b963534893021f5a27889cccbcca59280e34573ccd3629c8cbaa"
+    },
+    {
+        "index": 2,
+        "timestamp": "2025-11-02T03:30:24.426742",
+        "action": "FARMER_LIST",
+        "data": {
+            "role": "farmer",
+            "action": "list",
+            "crop_id": 6,
+            "name": "orange",
+            "quantity": "1"
+        },
+        "previous_hash": "cc0b7f739be2b963534893021f5a27889cccbcca59280e34573ccd3629c8cbaa",
+        "hash": "ae64f89e26fc9f60d277b12ad8c0c874df505689ca9f5f01ffdfd74a42be57b8"
+    },
+    {
+        "index": 3,
+        "timestamp": "2025-11-02T05:30:04.354798",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 1,
+            "from_distributor_id": 7,
+            "to_customer_id": 8,
+            "quantity": 1,
+            "total_price": 119.0
+        },
+        "previous_hash": "ae64f89e26fc9f60d277b12ad8c0c874df505689ca9f5f01ffdfd74a42be57b8",
+        "hash": "90fce70c3f3546b6bbfa66e4f394ff9a0ca50ed4b3220b07972714127894462c"
+    },
+    {
+        "index": 4,
+        "timestamp": "2025-11-02T05:48:37.850311",
+        "action": "CROP_ADDED",
+        "data": {
+            "crop_id": 2,
+            "farmer_id": 5,
+            "name": "Milk",
+            "quantity": 5.0,
+            "action": "crop_added"
+        },
+        "previous_hash": "90fce70c3f3546b6bbfa66e4f394ff9a0ca50ed4b3220b07972714127894462c",
+        "hash": "585b831e2d7545056d012b2c7f21ffb17c8a2884dce2fe1afc11cdf5f6f418fc"
+    },
+    {
+        "index": 5,
+        "timestamp": "2025-11-02T05:57:36.138054",
+        "action": "RETAILER_TO_DISTRIBUTOR",
+        "data": {
+            "crop_id": 10,
+            "from_retailer_id": 6,
+            "to_distributor_id": 7,
+            "quantity": 1,
+            "total_price": 1500.0
+        },
+        "previous_hash": "585b831e2d7545056d012b2c7f21ffb17c8a2884dce2fe1afc11cdf5f6f418fc",
+        "hash": "93143cd509ff1bbfb13df956cb5a4ac31a844d6713edee2cd87b2b3101ea7a37"
+    },
+    {
+        "index": 6,
+        "timestamp": "2025-11-02T05:57:37.823052",
+        "action": "RETAILER_TO_DISTRIBUTOR",
+        "data": {
+            "crop_id": 7,
+            "from_retailer_id": 6,
+            "to_distributor_id": 7,
+            "quantity": 1,
+            "total_price": 250.0
+        },
+        "previous_hash": "93143cd509ff1bbfb13df956cb5a4ac31a844d6713edee2cd87b2b3101ea7a37",
+        "hash": "68b48274808df7eda9dac42368c915583e7c50bfe3f0be96354d642b4d35dec5"
+    },
+    {
+        "index": 7,
+        "timestamp": "2025-11-02T05:57:40.638530",
+        "action": "RETAILER_TO_DISTRIBUTOR",
+        "data": {
+            "crop_id": 4,
+            "from_retailer_id": 6,
+            "to_distributor_id": 7,
+            "quantity": 1,
+            "total_price": 1500.0
+        },
+        "previous_hash": "68b48274808df7eda9dac42368c915583e7c50bfe3f0be96354d642b4d35dec5",
+        "hash": "c88b47804dbc68d3ffac5cd8ccd1140b245b76a11cde517bf1db9f49e3db41ec"
+    },
+    {
+        "index": 8,
+        "timestamp": "2025-11-02T06:00:34.234894",
+        "action": "RETAILER_TO_DISTRIBUTOR",
+        "data": {
+            "crop_id": 9,
+            "from_retailer_id": 6,
+            "to_distributor_id": 7,
+            "quantity": 1,
+            "total_price": 1500.0
+        },
+        "previous_hash": "c88b47804dbc68d3ffac5cd8ccd1140b245b76a11cde517bf1db9f49e3db41ec",
+        "hash": "ae0ab5aa3fe521a29c0e4aa9736519b146965a152291ee747bceb10970f82668"
+    },
+    {
+        "index": 9,
+        "timestamp": "2025-11-02T06:07:11.638745",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 10,
+            "from_distributor_id": 7,
+            "to_customer_id": 8,
+            "quantity": 1,
+            "total_price": 1500.0
+        },
+        "previous_hash": "ae0ab5aa3fe521a29c0e4aa9736519b146965a152291ee747bceb10970f82668",
+        "hash": "8a6a4cdba9d0d8c993becc8000ac3e51db3a736f758c3f2fc657a1550853f8de"
+    },
+    {
+        "index": 10,
+        "timestamp": "2025-11-02T06:16:16.487164",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 7,
+            "from_distributor_id": 7,
+            "to_customer_id": 8,
+            "quantity": 1,
+            "total_price": 250.0
+        },
+        "previous_hash": "8a6a4cdba9d0d8c993becc8000ac3e51db3a736f758c3f2fc657a1550853f8de",
+        "hash": "60434449214e69616285f9f1df874034e3684fa2b734ae4985a3f0c4f8239883"
+    },
+    {
+        "index": 11,
+        "timestamp": "2025-11-02T06:27:41.898594",
+        "action": "CROP_ADDED",
+        "data": {
+            "crop_id": 12,
+            "farmer_id": 5,
+            "name": "Watermelon",
+            "quantity": 100.0,
+            "action": "crop_added"
+        },
+        "previous_hash": "60434449214e69616285f9f1df874034e3684fa2b734ae4985a3f0c4f8239883",
+        "hash": "76b436bd7dd1f2d72e366ab7ea757476dc44b2458565f963d723d7c107e0c56b"
+    },
+    {
+        "index": 12,
+        "timestamp": "2025-11-02T06:31:21.864325",
+        "action": "CROP_ADDED",
+        "data": {
+            "crop_id": 16,
+            "farmer_id": 5,
+            "name": "Curd",
+            "quantity": 50.0,
+            "action": "crop_added"
+        },
+        "previous_hash": "76b436bd7dd1f2d72e366ab7ea757476dc44b2458565f963d723d7c107e0c56b",
+        "hash": "344a7339ac9c719cd867a551b80da0fa379489bd08acbdace0c9a13852c427b5"
+    },
+    {
+        "index": 13,
+        "timestamp": "2025-11-02T07:15:01.861333",
+        "action": "RETAILER_TO_DISTRIBUTOR",
+        "data": {
+            "crop_id": 22,
+            "from_retailer_id": 6,
+            "to_distributor_id": 7,
+            "quantity": 5,
+            "total_price": 12500.0
+        },
+        "previous_hash": "344a7339ac9c719cd867a551b80da0fa379489bd08acbdace0c9a13852c427b5",
+        "hash": "c6dccc814aea4c801e705a22a1429955a01eed11875cc3ea6eb91c4bfacb0808"
+    },
+    {
+        "index": 14,
+        "timestamp": "2025-11-02T08:17:09.454977",
+        "action": "FARMER_TO_RETAILER",
+        "data": {
+            "crop_id": 12,
+            "purchased_crop_id": 27,
+            "from_farmer_id": 5,
+            "to_retailer_id": 6,
+            "quantity": 1.0,
+            "price_per_unit": 3000.0,
+            "total_price": 3000.0,
+            "transaction_type": "partial"
+        },
+        "previous_hash": "c6dccc814aea4c801e705a22a1429955a01eed11875cc3ea6eb91c4bfacb0808",
+        "hash": "f98f8583560cd14180d12b86e0d164762e58e6102984b05aa5021f496826bb39"
+    },
+    {
+        "index": 15,
+        "timestamp": "2025-11-02T08:18:46.318444",
+        "action": "FARMER_TO_RETAILER",
+        "data": {
+            "crop_id": 12,
+            "purchased_crop_id": 29,
+            "from_farmer_id": 5,
+            "to_retailer_id": 6,
+            "quantity": 10.0,
+            "price_per_unit": 3000.0,
+            "total_price": 30000.0,
+            "transaction_type": "partial"
+        },
+        "previous_hash": "f98f8583560cd14180d12b86e0d164762e58e6102984b05aa5021f496826bb39",
+        "hash": "0d1ec46ecd0a084f5238fc15c7ba6b12eaaf23efc245301b5623984b256a2978"
+    },
+    {
+        "index": 16,
+        "timestamp": "2025-11-02T08:22:53.113694",
+        "action": "FARMER_TO_RETAILER",
+        "data": {
+            "crop_id": 12,
+            "purchased_crop_id": 33,
+            "from_farmer_id": 5,
+            "to_retailer_id": 6,
+            "quantity": 1.0,
+            "price_per_unit": 3000.0,
+            "total_price": 3000.0,
+            "transaction_type": "partial"
+        },
+        "previous_hash": "0d1ec46ecd0a084f5238fc15c7ba6b12eaaf23efc245301b5623984b256a2978",
+        "hash": "bd765e8af011158015fef33cf11a22e1209c858b54816abf4501d759e7f1e1ab"
+    },
+    {
+        "index": 17,
+        "timestamp": "2025-11-02T08:38:52.720453",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 42,
+            "from_distributor_id": 7,
+            "to_customer_id": 8,
+            "quantity": 1,
+            "total_price": 6900.0
+        },
+        "previous_hash": "bd765e8af011158015fef33cf11a22e1209c858b54816abf4501d759e7f1e1ab",
+        "hash": "e7a2f42b82bf44f791362541a89b1b31ed61f0ed9bbb62ca9b08116d4c5205bf"
+    },
+    {
+        "index": 18,
+        "timestamp": "2025-11-02T08:56:45.876914",
+        "action": "CROP_ADDED",
+        "data": {
+            "crop_id": 43,
+            "farmer_id": 5,
+            "name": "apple",
+            "quantity": 100.0,
+            "action": "crop_added"
+        },
+        "previous_hash": "e7a2f42b82bf44f791362541a89b1b31ed61f0ed9bbb62ca9b08116d4c5205bf",
+        "hash": "e29406f6f72150ab99732581f48f35ecd8388881e30d95bab7c6574fc56fafdc"
+    },
+    {
+        "index": 19,
+        "timestamp": "2025-11-02T09:07:42.032171",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 3,
+            "from_distributor_id": 7,
+            "to_customer_id": 8,
+            "quantity": 5,
+            "total_price": 690.0
+        },
+        "previous_hash": "e29406f6f72150ab99732581f48f35ecd8388881e30d95bab7c6574fc56fafdc",
+        "hash": "be1529d01e3895fd97ee4ee01b7495f17effda7a418301baea1b6eee990d2d09"
+    },
+    {
+        "index": 20,
+        "timestamp": "2025-11-02T09:17:30.918556",
+        "action": "CROP_ADDED",
+        "data": {
+            "crop_id": 4,
+            "farmer_id": 5,
+            "name": "banana",
+            "quantity": 100.0,
+            "action": "crop_added"
+        },
+        "previous_hash": "be1529d01e3895fd97ee4ee01b7495f17effda7a418301baea1b6eee990d2d09",
+        "hash": "0f519685732fdd7b806e451634815512f9875af99654e7600eba447ebd5fb1aa"
+    },
+    {
+        "index": 21,
+        "timestamp": "2025-11-02T09:22:58.707980",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 6,
+            "from_distributor_id": 7,
+            "to_customer_id": 8,
+            "quantity": 3,
+            "total_price": 41.400000000000006
+        },
+        "previous_hash": "0f519685732fdd7b806e451634815512f9875af99654e7600eba447ebd5fb1aa",
+        "hash": "16a835638386852c6bab9a20e8972c15a210887f73922303762d33da5a6101c9"
+    },
+    {
+        "index": 22,
+        "timestamp": "2025-11-02T09:47:59.498226",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 3,
+            "from_distributor_id": 7,
+            "to_customer_id": 8,
+            "quantity": 3,
+            "total_price": 0.42000000000000004
+        },
+        "previous_hash": "16a835638386852c6bab9a20e8972c15a210887f73922303762d33da5a6101c9",
+        "hash": "7f9acd1ba88e36fab527a37bc8d6bacf07cbe1e561d17aa03866058fb76d306e"
+    },
+    {
+        "index": 23,
+        "timestamp": "2025-11-02T12:18:58.491079",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 6,
+            "from_distributor_id": 11,
+            "to_customer_id": 12,
+            "quantity": 4,
+            "total_price": 1380.0
+        },
+        "previous_hash": "7f9acd1ba88e36fab527a37bc8d6bacf07cbe1e561d17aa03866058fb76d306e",
+        "hash": "6d2a7f8c946f8e323c134387e4b59a175fc90f0a0202220d1fa4b798f622ffa3"
+    },
+    {
+        "index": 24,
+        "timestamp": "2025-11-02T12:36:45.879675",
+        "action": "FARMER_TO_RETAILER",
+        "data": {
+            "crop_id": 7,
+            "purchased_crop_id": 8,
+            "from_farmer_id": 9,
+            "to_retailer_id": 10,
+            "quantity": 10.0,
+            "price_per_unit": 120.0,
+            "total_price": 1200.0,
+            "transaction_type": "partial"
+        },
+        "previous_hash": "6d2a7f8c946f8e323c134387e4b59a175fc90f0a0202220d1fa4b798f622ffa3",
+        "hash": "84274a82bf68e53d6257960661c6cbed116b569603306d3bca5c71d07a762377"
+    },
+    {
+        "index": 25,
+        "timestamp": "2025-11-02T12:39:43.577543",
+        "action": "FARMER_TO_RETAILER",
+        "data": {
+            "crop_id": 7,
+            "purchased_crop_id": 9,
+            "from_farmer_id": 9,
+            "to_retailer_id": 10,
+            "quantity": 1.0,
+            "price_per_unit": 120.0,
+            "total_price": 120.0,
+            "transaction_type": "partial"
+        },
+        "previous_hash": "84274a82bf68e53d6257960661c6cbed116b569603306d3bca5c71d07a762377",
+        "hash": "5f242100e4126dc40d1a97c4c4181552a95cd75592e84a94a1a83d7a3fb15a18"
+    },
+    {
+        "index": 26,
+        "timestamp": "2025-11-02T15:08:21.010117",
+        "action": "RETAILER_TO_DISTRIBUTOR",
+        "data": {
+            "crop_id": 16,
+            "purchased_crop_id": 16,
+            "from_retailer_id": 10,
+            "to_distributor_id": 11,
+            "quantity": 11,
+            "price_per_unit": 138.0,
+            "total_price": 1518.0
+        },
+        "previous_hash": "5f242100e4126dc40d1a97c4c4181552a95cd75592e84a94a1a83d7a3fb15a18",
+        "hash": "b64d7da5c291a845d475946b85dc6136eccfbcc8069430f43665b16e197af2fb"
+    },
+    {
+        "index": 27,
+        "timestamp": "2026-04-30T02:34:01.950060",
+        "action": "DISTRIBUTOR_TO_CUSTOMER",
+        "data": {
+            "crop_id": 3,
+            "from_distributor_id": 3,
+            "to_customer_id": 4,
+            "quantity": 1,
+            "total_price": 68.94
+        },
+        "previous_hash": "b64d7da5c291a845d475946b85dc6136eccfbcc8069430f43665b16e197af2fb",
+        "hash": "83d2e213e36287c36dd654401d25872e7082c83807b001285095cc5be50ba3ec"
+    }
+]

@@ -1,0 +1,238 @@
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    padding: 2rem;
+  }
+  
+  .auth-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .auth-card h2 {
+    text-align: center;
+    color: #2c5530;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #2c5530;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #2c5530;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover:not(:disabled) {
+    background-color: #1e3a23;
+  }
+  
+  .auth-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    background-color: #fee;
+    color: #c33;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border: 1px solid #fcc;
+  }
+  
+  .auth-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #666;
+  }
+  
+  .auth-link a {
+    color: #2c5530;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .auth-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* MetaMask Login Styles */
+  .metamask-login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    padding: 2rem;
+  }
+  
+  .metamask-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .metamask-card h2 {
+    text-align: center;
+    color: #2c5530;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+  }
+  
+  .wallet-info {
+    background: #f0f8f0;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #2c5530;
+  }
+  
+  .wallet-info p {
+    margin: 0 0 0.5rem 0;
+    color: #2c5530;
+    font-weight: 600;
+  }
+  
+  .wallet-info code {
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: block;
+    font-family: monospace;
+    color: #333;
+    font-size: 0.95rem;
+  }
+  
+  .role-select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .role-select:focus {
+    outline: none;
+    border-color: #2c5530;
+  }
+  
+  .metamask-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    background: linear-gradient(135deg, #f6851b, #e2761b);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .metamask-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(246, 133, 27, 0.4);
+  }
+  
+  .metamask-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    position: relative;
+  }
+  
+  .divider::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+  }
+  
+  .divider span {
+    background: white;
+    padding: 0 1rem;
+    position: relative;
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  .btn.secondary {
+    width: 100%;
+    padding: 0.75rem;
+    background: white;
+    color: #2c5530;
+    border: 2px solid #2c5530;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btn.secondary:hover {
+    background: #2c5530;
+    color: white;
+  }

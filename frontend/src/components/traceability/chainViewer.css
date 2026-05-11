@@ -1,0 +1,82 @@
+.chain-viewer {
+    padding: 1rem;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #2c5530;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-marker {
+    position: absolute;
+    left: -2.4rem;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #2c5530;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #2c5530;
+  }
+  
+  .timeline-content {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .timeline-content h4 {
+    margin: 0 0 0.5rem 0;
+    color: #2c5530;
+  }
+  
+  .timeline-meta {
+    color: #666;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .timeline-date {
+    color: #888;
+    margin: 0.25rem 0;
+    font-size: 0.85rem;
+  }
+  
+  .timeline-quantity {
+    color: #2c5530;
+    font-weight: 600;
+    margin: 0.25rem 0;
+  }
+  
+  .timeline-block {
+    font-family: monospace;
+    background: #f5f5f5;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin: 0.25rem 0;
+  }
+  
+  .no-journey {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-style: italic;
+  }
