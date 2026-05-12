@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000", // Flask backend URL
+  baseURL: "https://foodchain-supplyy.onrender.com",, // Flask backend URL
 });
 
 // ---------- Farmer ----------
